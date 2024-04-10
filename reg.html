@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+
+            body{
+                margin: 0;
+            } 
+
+            .body{
+                display: flex;
+            }
+
+            .img{
+                margin-top: 50px;
+                width: 100%;
+            }
+
+            .container{
+                background-color: #6f9fef;
+                color: white;
+                width: 100%;
+                height: 593px;
+
+               
+            }
+
+            .top{
+                text-align: center;
+                margin-top: 90px;
+                margin-bottom: 70px;
+            }
+
+            form{
+                margin-left: 30%;
+                width: fit-content;
+            }
+
+            input[type=text],input[type=password]{
+                padding: 10px 12px;
+                width: 90%;
+            }
+
+            a{
+                color: white;
+            }
+
+            button{
+                border: none;
+                width: 100%;
+                padding: 10px 12px;
+                color: white;
+                background-color: rgba(255,255,255,0.3);
+                
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <div class="body">
+
+        <div class="img">
+            <img src="istockphoto-1312423107-612x612.jpg" alt="avatar" class="avatar">
+        </div>
+        
+        <div class="container">
+
+            <div class="top">
+                <h1> Welcome Back! </h1>
+                <p> Dont't have an account yet? &nbsp; &nbsp;  <a href="#">Sign Up</a> </p> 
+            </div>
+        <form>
+                <label for="uname">Username</label><br>
+                <input type="text" id="uname" name="uname"><br><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+            
+                <input type="checkbox" id="login" name="login" value="login">
+                <label for="login">keep me logged in</label> &nbsp; &nbsp; &nbsp;
+                <span><a href="#">Forgot Password</a></span><br><br>
+                <button type="submit"><b>Login</b></button>
+        </form>
+        </div>
+    </body>
+</html>
